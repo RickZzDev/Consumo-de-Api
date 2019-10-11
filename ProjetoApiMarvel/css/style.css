@@ -1,0 +1,47 @@
+.caixas{
+   
+    width: 250px;
+    height: 200px;
+}
+
+.primeira{
+    background-image: url("../imagens/homemDeFerro.png");
+    margin-left: -80px;
+    background-color: red;
+}
+.segunda{
+    background: blue;
+    margin-left: -90px;
+}
+.terceira{
+    background:grey;
+    margin-left: -100px;
+}
+.quarta{
+    background: gold;
+    margin-left: -110px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#caixaPesquisa{
+    width:50vw;
+    height: 0px;
+    margin-bottom: 70px;
+}
+
+#spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #22a6b3;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    opacity: 0;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); };
+}
